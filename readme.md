@@ -1,4 +1,4 @@
-#portfolio
+# portfolio
 this is to learn git, github, html, css by building portfolio
 
 # Demo
@@ -10,8 +10,8 @@ this is to learn git, github, html, css by building portfolio
 * javasscript
 
 # License
-#### MIT
+** MIT **
 
 # Author
-#### Kunjan
+Kunjan
 
