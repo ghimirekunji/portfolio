@@ -11,15 +11,15 @@ our css comment
 }
 
 .head-wrapper div {
-  width: 33.33%;
-  height: 200px;
+  width: 50%; /*--33.33% to divide among 3 section equally-- */
+  height: 500px;
   border: 2px solid orange;
   flex: 1;
 }
 
 img {
-  width: 50%;
-  border-radius: 5px;
+  width: 60%;
+  border-radius: 70px;
 }
 
 .header-nav li {
