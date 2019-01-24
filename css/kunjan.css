@@ -11,14 +11,13 @@ our css comment
 }
 
 .head-wrapper div {
-  width: 50%; /*--33.33% to divide among 3 section equally-- */
+  width: 33.33%; /*--33.3% to divide among 3 section equally-- */
   height: 500px;
   border: 2px solid orange;
-  flex: 1;
 }
 
 img {
-  width: 60%;
+  width: 40%;
   border-radius: 70px;
 }
 
@@ -41,3 +40,7 @@ span {
 footer {
   background: lightblue;
 }
+
+/* .first-item img {
+  height: 1200px;
+} */
