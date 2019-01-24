@@ -6,6 +6,10 @@ our css comment
 
 /*--header-- */
 
+header {
+  background: lightgray;
+}
+
 .head-wrapper {
   display: flex;
 }
