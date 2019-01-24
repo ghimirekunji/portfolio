@@ -12,13 +12,13 @@ our css comment
 
 .head-wrapper div {
   width: 33.33%; /*--33.3% to divide among 3 section equally-- */
-  height: 500px;
+  height: 200px;
   border: 2px solid orange;
 }
 
 img {
   width: 40%;
-  border-radius: 70px;
+  border-radius: 7px;
 }
 
 .header-nav li {
@@ -27,7 +27,7 @@ img {
   list-style: none;
 }
 
-.header-nav li {
+.header-nav li a {
   text-decoration: none;
 }
 
@@ -36,6 +36,24 @@ img {
 span {
   color: green;
 }
+
+table {
+  width: 100%;
+  margin: auto;
+}
+
+table,
+th,
+td {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  width: 10%;
+}
+
 /*--footer- */
 footer {
   background: lightblue;

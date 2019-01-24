@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>INtroduction to contact</title>
+    <title>Contact</title>
   </head>
   <body>
     <header>
       <ul>
-        <li><a href="../index.html"> index home</a></li>
+        <li><a href="../index.html"> home</a></li>
         <li><a href="contact.html">contact</a></li>
         <li><a href="project.html">project</a></li>
         <li><a href="skills.html">skills</a></li>
@@ -15,12 +15,40 @@
 
     <h1>Please fill the form to contact me</h1>
     <form>
-      <label>First Name:</label> <input type="text" /> <br />
-      <label>Last Name:</label> <input type="text" /> <br />
-      <label>Email</label> <input type="email" /> <br />
-      <label>Password:</label> <input type="password" /> <br />
-      <label>Age:</label> <input type="number" /> <br />
-      <label>Date of birth:</label> <input type="date" /> <br />
+      <label for="firstname">First Name:</label>
+      <input
+        type="text"
+        id="firstname"
+        placeholder="Firstname"
+        name="firstname"
+      />
+      <br />
+      <label for="lastname">Last Name:</label>
+      <input type="text" id="lastname" name="lastname" placeholder="Lastname" />
+      <br />
+      <label for="email">Email</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="nameatgmail.com"
+      />
+      <br />
+      <label for="password">Password:</label>
+      <input
+        type="password"
+        id="password"
+        name="password"
+        placeholder="Password"
+      />
+      <br />
+      <label for="Age">Age:</label>
+      <input type="number" id="Age" name="Age" name="Age" placeholder="Age" />
+      <br />
+
+      <label for="dateofbirth">Date of birth:</label>
+      <input type="datetime-local" /> <br />
+
       <label>Favorite Color:</label> <input type="color" /> <br />
       <label>Gender:</label>
       <input type="radio" name="gender" value="Female" /> Female
@@ -35,6 +63,15 @@
         <option value="finland">Vietnam</option>
         <option value="finland">Kenya</option>
       </select>
+
+      <label>skills:</label> <input type="checkbox" /> <lable>HTML</lable
+      ><input type="checkbox" /> <lable>CSS</lable><input type="checkbox" />
+      <lable>java</lable><input type="checkbox" /> <lable>react</lable
+      ><input type="checkbox" /> <br />
+      <label for="message">Your message goes here:</label> <br />
+      <textarea id="message" name="message" cols="80" rows="5"> </textarea>
+      <br />
+      <input type="submit" value="submit" />
     </form>
 
     <footer>
