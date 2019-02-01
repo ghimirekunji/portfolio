@@ -1,3 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif; /*
+
+makes the header smooth in touch with nav navigation
+
+*/
+}
+
 /*
 
 our css comment
@@ -7,17 +18,22 @@ our css comment
 /*--header-- */
 
 header {
-  background: lightgray;
+  background: lightyellow;
+
+  padding: 10px;
 }
 
 .head-wrapper {
-  display: flex;
+  display: inline-flex;
+  background: url("../assests/images/background.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .head-wrapper div {
   width: 33.33%; /*--33.3% to divide among 3 section equally-- */
   height: 200px;
-  border: 2px solid orange;
+  border: 0px;
 }
 
 img {
@@ -34,8 +50,29 @@ img {
 .header-nav li a {
   text-decoration: none;
 }
+.header-nav a:link {
+  color: #ff0000;
+}
+.header-nav a:visited {
+  color: green;
+}
+.header-nav a:hover {
+  color: orange;
+  background: rgba(0, 0, 0, 0.1);
+  border: 2px solid orange;
+  padding: 5px 15px; /*--padding clockwise-- */
+}
 
 /*--body-- */
+
+.para {
+  color: yellow;
+  padding: 10px;
+}
+
+.third-para {
+  background-color: brown;
+}
 
 span {
   color: green;
@@ -58,11 +95,65 @@ td {
   width: 10%;
 }
 
+/*--CSS positioning- */
+
+.item {
+  border: 2px solid red;
+  width: 35%;
+  height: 100px;
+}
+
+.first-item {
+  background: red;
+  position: relative;
+  left: 100px;
+}
+.second-item {
+  background: green;
+  position: relative;
+  left: 100px;
+}
+.third-item {
+  background: blue;
+  position: relative;
+  left: 100px;
+}
+
 /*--footer- */
 footer {
-  background: lightpink;
+  background: lightgray;
 }
 
 /* .first-item img {
   height: 1200px;
 } */
+
+/* --social media icons---} */
+i {
+  font-size: 30px;
+}
+.fa-github {
+  color: #24292e;
+}
+.fa-medium {
+  color: #80cfb9;
+}
+.fa-twitter {
+  color: #7fc3ed;
+}
+legend {
+  text-align: center;
+}
+.form-group p {
+  display: none;
+}
+
+/* --or
+ .error-message{
+  display: none;
+}      
+--or   --but if p is somehwre lese its gonna be prob
+p:last-child{
+  display:none;   
+   
+}      --} */
